@@ -1,0 +1,48 @@
+html{
+    font-family: 'Roboto Slab', serif;
+    background-image: url("../img/background.jpeg");
+    background-size:cover;
+} 
+/*hide results and details*/
+#results, #details {
+    display:none;
+}
+
+
+
+section
+{
+    background: rgba(255, 255, 255, 0.7);
+    margin:auto;
+    margin-top: 20px;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+/* select the img with an id="logo"    no space*/
+img#logo {
+    margin: auto;
+    width: 50%;
+    display:block;
+    
+}
+
+/*comma in between will aply rules to both*/
+select, button {
+    width:100%;
+    background: black;
+    color: white;
+    font-size: 160%;
+}
+
+button{
+    border:none;
+    padding: 20px;
+    border-radius: 50px;
+    width: auto;
+    margin-top: 20px;
+    width:100px;
+    height: 100px;
+}
